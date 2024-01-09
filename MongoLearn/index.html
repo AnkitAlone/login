@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myForm {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+        }
+
+        #myForm input,
+        #myForm button {
+            margin: 5px;
+            padding: 8px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form id="myForm">
+        <h1>E-mail</h1>
+        <input type="email" id="emailInput" placeholder="Enter Your E-mail" name = "mail">
+        <h1>Password</h1>
+        <input type="password" id="passwordInput" placeholder="Enter Your Password" name = "pass">
+        <button id="submitButton">Sign In</button>
+    </form>
+    
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

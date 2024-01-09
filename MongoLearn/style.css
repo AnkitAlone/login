@@ -1,0 +1,15 @@
+
+/* #id1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+#id1 input,
+#id1 button {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+} */
